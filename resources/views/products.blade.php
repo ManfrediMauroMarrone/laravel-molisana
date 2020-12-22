@@ -6,3 +6,8 @@
   <h1>Lista dei prodotti</h1>
 
 @endsection
+
+@section('page-title')
+  Prodotti - La Molisana
+
+@endsection

@@ -4,6 +4,10 @@
 {{-- collego lo yield con il contenuto di Homepage --}}
 @section('content')
   <h1>Homepage</h1>
-  <p>ciao</p>
+
+@endsection
+
+@section('page-title')
+  Homepage - La Molisana
 
 @endsection
