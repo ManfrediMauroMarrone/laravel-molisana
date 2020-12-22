@@ -8,7 +8,8 @@
     <div class="card-container">
       @foreach ($pasta as $tipo_pasta)
         <div class="card">
-          <p>{{ $tipo_pasta['titolo'] }}</p>
+          <img src="{{ $tipo_pasta['src']}}" alt="{{ $tipo_pasta['titolo'] }}">
+
 
         </div>
       @endforeach
