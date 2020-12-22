@@ -3,7 +3,10 @@
 
 {{-- collego lo yield con il contenuto di Homepage --}}
 @section('content')
-  <h1>Homepage</h1>
+  <div class="container">
+
+    <h1>Homepage</h1>
+  </div>
 
 @endsection
 

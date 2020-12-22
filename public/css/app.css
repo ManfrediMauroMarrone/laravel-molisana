@@ -1,5 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
 }
 
 header {
@@ -24,5 +35,13 @@ header ul li a {
 
 header ul li a:hover {
   background-color: #B3E5FC;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+footer img {
+  max-width: 100%;
 }
 
