@@ -12,19 +12,20 @@ body {
   max-width: 1170px;
   margin: auto;
 }
+.container img {
+  max-width: 100%;
+  display: block;
+}
 
 header {
   text-align: center;
 }
-
 header ul {
   list-style-type: none;
 }
-
 header ul li {
   display: inline-block;
 }
-
 header ul li a {
   text-decoration: none;
   color: black;
@@ -32,21 +33,20 @@ header ul li a {
   display: inline-block;
   padding: 5px;
 }
-
-header ul li a:hover {
+header ul li a:hover, header ul li a.active {
   background-color: #B3E5FC;
 }
 
 footer {
   padding-top: 50px;
 }
-
 footer img {
   max-width: 100%;
 }
 
-main {
+.prodotti {
   background-image: url("/images/main.jpg");
+  padding: 50px;
 }
 
 .title {
@@ -60,19 +60,21 @@ main {
   align-items: center;
 }
 
+.tipo-pasta {
+  text-transform: uppercase;
+}
+
 .card {
   width: 300px;
   margin: 10px;
   position: relative;
 }
-
 .card img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .card .overlay {
   display: none;
   position: absolute;
@@ -81,7 +83,6 @@ main {
   width: 100%;
   height: 100%;
 }
-
 .card .overlay a {
   text-decoration: none;
   color: black;
@@ -91,9 +92,43 @@ main {
   width: 100%;
   height: 100%;
 }
-
 .card:hover .overlay {
   display: block;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.img-pasta,
+.confezione {
+  width: 100%;
+  margin: auto;
+}
+.img-pasta img,
+.confezione img {
+  width: 100%;
+  display: block;
+}
+
+.descrizione {
+  padding: 10px;
+  background-color: #B7DAE5;
+}
+
+.details {
+  font-size: 18px;
+  color: #1B4784;
+  line-height: 2;
+  background-color: #B7DAE5;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  background-color: #B7DAE5;
+}
+.info .info-box {
+  margin: 10px 50px;
+}
+.info .info-box i {
+  font-size: 20px;
+  color: #1B4784;
+}

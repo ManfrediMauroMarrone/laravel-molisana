@@ -1,0 +1,33 @@
+.img-pasta,
+.confezione{
+  width: 100%;
+  margin:auto;
+  img{
+    width: 100%;
+    display: block;
+  }
+}
+.descrizione{
+  padding: 10px;
+  background-color: #B7DAE5;
+}
+
+.details{
+  font-size: 18px;
+  color: #1B4784;
+  line-height: 2;
+  background-color: #B7DAE5;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  background-color: #B7DAE5;
+  .info-box{
+    margin: 10px 50px;
+    i{
+      font-size: 20px;
+      color: #1B4784;
+    }
+  }
+}

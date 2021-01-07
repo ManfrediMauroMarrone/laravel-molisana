@@ -1,5 +1,6 @@
-main{
+.prodotti{
   background-image: url('/images/main.jpg');
+  padding: 50px;
 }
 
 .title{
@@ -11,6 +12,10 @@ main{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.tipo-pasta{
+  text-transform: uppercase;
 }
 
 .card{
